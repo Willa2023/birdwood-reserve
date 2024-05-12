@@ -9,11 +9,10 @@ function Home() {
 
       <div class="home__container container grid">
         <div class="home__data">
-          <span class="home__data-subtitle">Discover your place</span>
+          <span class="home__data-subtitle">Discover Karori</span>
           <h1 class="home__data-title">
-            Explore The <br /> Best{" "}
-            <b>
-              Beautiful <br /> Beaches
+            An Exciting New Track<br /> <b>for Karori{" "}</b>
+            And <br /><b> New Access to Zealandia!
             </b>
           </h1>
           <a href="#" class="button">
