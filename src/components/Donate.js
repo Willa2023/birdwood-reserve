@@ -5,8 +5,8 @@ function Donate() {
   return (
     <div>
       {/* <!--==================== DISCOVER ====================--> */}
-      <section class="discover section" id="discover">
-        <h2 class="section__title">Donate Information</h2>
+      <section className="discover section" id="discover">
+        <h2 className="section__title">Donate Information</h2>
         <p>
           Donations: Rotary Club of Karori Trust Acc 03-1540-0014117-003 (Ref:
           BirdwoodTrack)
@@ -16,9 +16,9 @@ function Donate() {
           karorikaitiaki@gmail.com{" "}
         </p>
 
-        <div class="discover__container container swiper-container">
-          <div class="swiper-wrapper">
-            <img src={map} alt="" class="about__img-two" />
+        <div className="discover__container container swiper-container">
+          <div className="swiper-wrapper">
+            <img src={map} alt="" className="about__img-two" />
           </div>
         </div>
       </section>

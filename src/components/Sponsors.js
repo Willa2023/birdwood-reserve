@@ -10,13 +10,13 @@ import Rotary from "../assets/icons/Rotary.jpg";
 function Sponsors() {
   return (
     <div>
-      <section class="place section" id="place">
-        <div class="place__container container grid">
-          <div class="sponsor__content">
-            <img src={KAKA} alt="" class="sponsor__img" />
+      <section className="place section" id="place">
+        <div className="place__container container grid">
+          <div className="sponsor__content">
+            <img src={KAKA} alt="" className="sponsor__img" />
           </div>
-          <div class="sponsor__content">
-            <img src={Rotary} alt="" class="sponsor__img" />
+          <div className="sponsor__content">
+            <img src={Rotary} alt="" className="sponsor__img" />
           </div>
         </div>
       </section>
