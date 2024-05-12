@@ -5,7 +5,7 @@ import sponsors3 from "../assets/img/sponsors3.png";
 import sponsors4 from "../assets/img/sponsors4.png";
 import sponsors5 from "../assets/img/sponsors5.png";
 
-function Sponsers() {
+function Sponsors() {
   return (
     <div>
       <section class="sponsor section">
@@ -30,3 +30,5 @@ function Sponsers() {
     </div>
   );
 }
+
+export default Sponsors;

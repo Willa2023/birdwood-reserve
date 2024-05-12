@@ -1,3 +1,6 @@
+import React from "react";
+import video from "../assets/video/video.mp4";
+
 function Video() {
   return (
     <div>
@@ -12,7 +15,7 @@ function Video() {
 
           <div class="video__content">
             <video id="video-file">
-              <source src="assets/video/video.mp4" type="video/mp4" />
+              <source src={video} type="video/mp4" />
             </video>
 
             <button class="button button--flex video__button" id="video-button">
