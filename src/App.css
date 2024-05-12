@@ -685,10 +685,15 @@ input {
 }
 
 /*=============== SPONSORS ===============*/
-.sponsor__container {
+/* .sponsor__container {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   justify-items: center;
   row-gap: 3.5rem;
+} */
+
+.sponsor__container {
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
 }
 
 .sponsor__content:hover .sponsor__img {

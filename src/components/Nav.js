@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Rotary from "../assets/icons/Rotary.jpg";
+import KAKA from "../assets/icons/KAKA.png";
 
 function Nav() {
   const [isMenuVisible, setMenuVisible] = useState(false);
@@ -14,7 +16,7 @@ function Nav() {
   return (
     <nav className="nav container">
       <a href="#" className="nav__logo">
-        Travel
+        <img src={KAKA} alt="" width={50} />
       </a>
       <div className="nav__menu" id="nav-menu">
         <ul class="nav__list">
@@ -30,12 +32,12 @@ function Nav() {
           </li>
           <li class="nav__item">
             <a href="#discover" class="nav__link">
-              Discover
+              Donate
             </a>
           </li>
           <li class="nav__item">
             <a href="#place" class="nav__link">
-              Places
+              Our Supporters
             </a>
           </li>
         </ul>
